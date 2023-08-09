@@ -1,0 +1,40 @@
+2023-06-27 12:45:13,450 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 290429976 Bytes (1073741824)
+2023-06-27 12:45:13,497 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:13,497 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:13,497 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:16,257 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 293029128 Bytes (1073741824)
+2023-06-27 12:45:16,293 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:16,293 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:16,293 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-06-27 12:45:18,161 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 327199248 Bytes (1073741824)
+2023-06-27 12:45:18,363 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-27 12:45:18,363 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-06-27 12:45:18,363 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-27 12:45:18,363 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-27 12:45:18,363 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-06-27 12:45:18,537 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\license.tmp_save
+2023-06-27 12:45:18,610 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\license.tmp
+2023-06-27 12:45:18,632 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\gpio.tmp_save
+2023-06-27 12:45:18,711 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\gpio.tmp
+2023-06-27 12:45:18,779 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\stm32f4xx_it.c_save
+2023-06-27 12:45:18,921 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\stm32f4xx_it.c
+2023-06-27 12:45:18,933 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\stm32f4xx_it.h_save
+2023-06-27 12:45:18,995 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\stm32f4xx_it.h
+2023-06-27 12:45:19,010 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-27 12:45:19,124 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\stm32f4xx_hal_msp.c
+2023-06-27 12:45:19,124 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\system.tmp_save
+2023-06-27 12:45:19,170 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\MXTmpFiles\system.tmp
+2023-06-27 12:45:19,200 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-27 12:45:19,289 [INFO] CodeEngine:335 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-27 12:45:19,317 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-06-27 12:45:19,317 [WARN] CodeGenerator:3754 - IP not found : null
+2023-06-27 12:45:19,343 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\main.h_save
+2023-06-27 12:45:19,437 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Inc\main.h
+2023-06-27 12:45:19,454 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\main.c_save
+2023-06-27 12:45:19,557 [INFO] CodeEngine:279 - Generated code: C:\Users\senin\Desktop\geoscan\stm32cube\test\Core\Src\main.c
+2023-06-27 12:45:19,991 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 127mS.
+2023-06-27 12:45:19,991 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-27 12:45:20,527 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-06-27 12:45:22,197 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2206mS.
+2023-06-27 12:45:22,197 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-06-27 12:45:22,197 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

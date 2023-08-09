@@ -1,0 +1,5 @@
+typedef enum
+{
+  SSD1306_READY = 0x00,
+  SSD1306_BUSY  = 0x01
+} SSD1306_State;

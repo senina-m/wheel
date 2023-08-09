@@ -1,0 +1,10 @@
+13:49:50 **** Incremental Build of configuration Debug for project voltage ****
+make -j16 all 
+arm-none-eabi-size   voltage.elf 
+   text	   data	    bss	    dec	    hex	filename
+  46128	    496	   2952	  49576	   c1a8	voltage.elf
+Finished building: default.size.stdout
+ 
+
+13:49:50 Build Finished. 0 errors, 0 warnings. (took 155ms)
+

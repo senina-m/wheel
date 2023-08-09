@@ -1,0 +1,14 @@
+
+void SendCommand(uint8_t* data, uint8_t size)
+{
+  HAL_I2C_Mem_Write(&hi2c1, SSD1306_I2C_ADDRESS, SSD1306_I2C_CONTROL_BYTE_COMMAND,
+                    1, data, size, SSD1306_I2C_TIMEOUT);
+}
+
+void SendData(uint8_t *data, uint16_t size)
+{
+  HAL_I2C_Mem_Write_IT(&hi2c1, SSD1306_I2C_ADDRESS, SSD1306_I2C_CONTROL_BYTE_DATA,
+                       1, data, size);
+  SSD1306_state = SSD1306_BUSY;
+}
+

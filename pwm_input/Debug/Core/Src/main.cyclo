@@ -1,0 +1,12 @@
+main.c:82:5:main	3
+main.c:148:6:SystemClock_Config	3
+main.c:195:13:MX_I2C1_Init	2
+main.c:229:13:MX_TIM2_Init	5
+main.c:283:13:MX_TIM3_Init	4
+main.c:332:13:MX_GPIO_Init	1
+main.c:359:13:print_num	1
+main.c:368:14:convert_v	1
+main.c:372:13:print_text	1
+main.c:379:13:print_pwm	1
+main.c:389:6:HAL_TIM_IC_CaptureCallback	3
+main.c:409:6:Error_Handler	1

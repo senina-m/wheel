@@ -1,0 +1,9 @@
+typedef enum
+{
+  SSD1306_READY = 0x00,
+  SSD1306_BUSY  = 0x01
+} SSD1306_State;
+
+void SendCommand(uint8_t* data, uint8_t size);
+void SendData(uint8_t *data, uint16_t size);
+void HAL_I2C_MemTxCpltCallback(I2C_HandleTypeDef *hi2c);

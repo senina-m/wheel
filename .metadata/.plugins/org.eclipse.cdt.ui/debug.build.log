@@ -1,0 +1,7 @@
+14:38:57 **** Incremental Build of configuration Debug for project debug ****
+make -j16 all 
+make: *** No rule to make target 'Modules/SSD1306/ssd1306_interface.o', needed by 'debug.elf'.  Stop.
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+14:38:57 Build Failed. 1 errors, 0 warnings. (took 159ms)
+

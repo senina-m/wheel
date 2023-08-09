@@ -1,0 +1,464 @@
+16:39:26 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+16:39:30 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+16:40:26 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+16:54:13 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+16:55:32 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+16:58:28 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+17:01:32 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+17:07:03 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+17:08:40 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+17:10:38 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+17:13:43 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:06:04 **** Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+13:07:33 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:08:11 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+13:22:15 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:24:23 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:26:36 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:31:50 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:41:50 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:8: warning: unused variable 'stop' [-Wunused-variable]
+  122 |    int stop = 30;
+      |        ^~~~
+../Core/Src/main.c:121:8: warning: unused variable 'start' [-Wunused-variable]
+  121 |    int start = 0;
+      |        ^~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:149:1: error: expected identifier or '(' before '}' token
+  149 | }
+      | ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+13:42:28 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:8: warning: unused variable 'stop' [-Wunused-variable]
+  122 |    int stop = 30;
+      |        ^~~~
+../Core/Src/main.c:121:8: warning: unused variable 'start' [-Wunused-variable]
+  121 |    int start = 0;
+      |        ^~~~~
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41752	    496	   3168	  45416	   b168	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:42:36 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:8: warning: unused variable 'stop' [-Wunused-variable]
+  122 |    int stop = 30;
+      |        ^~~~
+../Core/Src/main.c:121:8: warning: unused variable 'start' [-Wunused-variable]
+  121 |    int start = 0;
+      |        ^~~~~
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41752	    496	   3168	  45416	   b168	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:42:45 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41752	    496	   3168	  45416	   b168	motor.elf
+Finished building: default.size.stdout
+ 
+13:43:40 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:43:46 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+13:51:55 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+13:53:43 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+14:07:34 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+14:16:19 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+11:47:08 **** Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+11:47:44 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+11:47:56 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+11:48:21 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+11:59:36 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-size   motor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+12:07:48 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41792	    496	   3168	  45456	   b190	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+12:54:53 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41800	    496	   3168	  45464	   b198	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+12:57:51 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41800	    496	   3168	  45464	   b198	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+12:58:50 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41800	    496	   3168	  45464	   b198	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 
+13:17:08 **** Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:15: error: 'delay' undeclared (first use in this function)
+  132 |     HAL_Delay(delay);
+      |               ^~~~~
+../Core/Src/main.c:132:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+13:17:45 **** Incremental Build of configuration Debug for project motor ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/senin/Desktop/geoscan/stm32cube/motor/Modules/ssd1306" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "motor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\senin\Desktop\geoscan\stm32cube\motor\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: motor.elf
+ 
+arm-none-eabi-size   motor.elf 
+arm-none-eabi-objdump -h -S  motor.elf  > "motor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41624	    496	   3168	  45288	   b0e8	motor.elf
+Finished building: default.size.stdout
+ 
+Finished building: motor.list
+ 

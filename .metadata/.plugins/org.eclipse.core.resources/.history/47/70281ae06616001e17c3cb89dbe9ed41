@@ -1,0 +1,13 @@
+#define SSD1306_X_SIZE                                                  128
+#define SSD1306_Y_SIZE                                                  64
+
+#define SSD1306_BUFFER_SIZE                                             (SSD1306_X_SIZE *  SSD1306_Y_SIZE) / 8
+static uint8_t pixelBuffer[SSD1306_BUFFER_SIZE];
+
+/*----------------------------------------------------------------------------*/
+
+void SSD1306_Init();
+void SSD1306_UpdateScreen();
+void SSD1306_ClearScreen();
+static void SetPixel(uint8_t x, uint8_t y);
+void SSD1306_DrawFilledRect(uint8_t xStart, uint8_t xEnd, uint8_t yStart, uint8_t yEnd);
